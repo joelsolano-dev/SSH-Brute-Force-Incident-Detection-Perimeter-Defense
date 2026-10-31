@@ -31,4 +31,3 @@ Validated the firewall rules to confirm that incoming traffic from the offending
 * **Commands Used for Verification:**
   ```bash
   sudo ufw status verbose
-* **Evidence:**
