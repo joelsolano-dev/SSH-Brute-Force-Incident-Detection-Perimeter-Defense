@@ -22,6 +22,8 @@ To neutralize the threat and protect the system against automated credential-stu
   sudo ufw deny from 192.168.1.150 to any
   sudo ufw limit 22/tcp
   ---
+* **Evidence:**
+<img width="1720" height="954" alt="image" src="https://github.com/user-attachments/assets/e799f7ba-f2e8-446c-885c-6f17470f54c9" />
 
 ### 3. Verification & Result
 Validated the firewall rules to confirm that incoming traffic from the offending host is successfully dropped.
@@ -29,3 +31,4 @@ Validated the firewall rules to confirm that incoming traffic from the offending
 * **Commands Used for Verification:**
   ```bash
   sudo ufw status verbose
+* **Evidence:**
